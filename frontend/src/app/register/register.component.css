@@ -1,0 +1,32 @@
+#img-register{
+    background-image: url('../../assets/img/register.jpg');
+    width: 57vw;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button.cancelar{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(16, 100%, 50%);
+    transition: 300ms ease-in-out;
+}
+
+button.cancelar:hover{
+    color: hsl(16, 100%, 50%);
+    background-color:  hsl(0, 0%, 100%);
+    border: 1px solid hsl(16, 100%, 50%);
+}
+
+button.cadastrar{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(120, 100%, 25%);
+    transition: 300ms ease-in-out;
+}
+
+button.cadastrar:hover{
+    color: hsl(120, 100%, 25%);
+    background-color:  hsl(0, 0%, 100%);
+    border: 1px solid hsl(120, 100%, 25%);
+}
