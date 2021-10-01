@@ -2,28 +2,53 @@ body{
     max-width: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
+    
 }
+
+
 input{
-    border: 1px solid hsl(224, 30%, 61%);
-    outline: none;
+    color: hsl(120, 100%, 25%);
+    background-color:  hsl(0, 0%, 100%);
+    border: 1px solid hsl(120, 100%, 25%);
 }
+
 
 button{
     width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(120, 100%, 25%);
+    transition: 300ms ease-in-out;
+}
+
+button:hover{
+    color: hsl(120, 100%, 25%);
+    background-color:  hsl(0, 0%, 100%);
+    border: 1px solid hsl(120, 100%, 25%);
+    box-shadow: 3px 3px 10px hsl(120, 100%, 25%);
 }
 
 .login{
-    width: 2rem;
-    border-bottom: 2px solid green;
+    width: 2.2rem;
+    border-bottom: 3px solid green;
 }
-
+.container-img{
+    width: 30%;
+}
 #img{
     background-image: url('../../assets/img/login.png');
-    width: 57vw;
-    min-height: 100vh;
+     min-height: 100vh;
+    filter: opacity(84%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+.cadastrar:hover{
+    font-weight: 600;
 }
 
 @media only screen and (max-width:600px){
@@ -39,3 +64,5 @@ button{
         display: none;
     }
 }
+
+
