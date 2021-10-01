@@ -1,24 +1,24 @@
 <section class="container-fluid">
     <div class="row">
         <div class="col-md-6" id="img-register"> </div>
-            <div class="col-md-6 mt-5 mb-5">
+            <div class="col-md-6 mt-4 mb-3">
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-10">
                         <h1 class="text-center">Cadastre-se</h1>
 
                         <div class="form-group">
                             <label for="nome">Nome completo:</label>
-                            <input [(ngModel)]='userLogin.nome' class="form-control" type="text" name="nome" id="nome" placeholder="Seu nome" >
+                            <input [(ngModel)]='user.nome' class="form-control" type="text" name="nome" id="nome" placeholder="Seu nome" >
                         </div>
 
                         <div class="form-group">
-                            <label for="usuario">Usuário:</label>
-                            <input [(ngModel)]='userLogin.nome' class="form-control" type="text" name="usuario" id="usuario" placeholder="Usuário">
+                            <label for="usuario">Email:</label>
+                            <input [(ngModel)]='user.email' class="form-control" type="text" name="usuario" id="usuario" placeholder="Seu email">
                         </div>
 
                         <div class="form-group">
                             <label for="foto">Foto:</label>
-                            <input [(ngModel)]='userLogin.foto' class="form-control" type="text" name="foto" id="foto" placeholder="Link da foto">
+                            <input [(ngModel)]='user.foto' class="form-control" type="text" name="foto" id="foto" placeholder="Link da foto">
                         </div>
 
                         <div class="form-group">
@@ -28,7 +28,7 @@
 
                         <div class="form-group">
                             <label for="confirmarSenha">Confirmar senha:</label>
-                            <input [(ngModel)]='userLogin.senha' class="form-control" type="password" name="confirmarSenha" id="confirmarSenha" placeholder="Confirme sua senha">
+                            <input [(ngModel)]='user.senha' class="form-control" type="password" name="confirmarSenha" id="confirmarSenha" placeholder="Confirme sua senha">
                         </div>
 
                         <div class="form-group">
@@ -42,7 +42,7 @@
 
                         <div class="d-flex justify-content-center ">
                             <button type="submit" class="btn mt-3 mr-4 cancelar" routerLink='/login'>Cancelar</button>
-                            <button type="submit" class="btn mt-3 cadastrar">Cadastrar</button>
+                            <button type="submit" class="btn mt-3 cadastrar" (click)='cadastrar()'>Cadastrar</button>
                         </div>
                     </div>
                 </div>
