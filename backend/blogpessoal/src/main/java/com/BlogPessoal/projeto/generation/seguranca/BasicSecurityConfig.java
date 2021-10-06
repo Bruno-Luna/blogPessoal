@@ -28,6 +28,7 @@ public class BasicSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
+                .antMatchers("/**").permitAll() 
                 .antMatchers(HttpMethod.POST, "/usuario/salvar").permitAll()
                 .antMatchers(HttpMethod.PUT, "/usuario/credenciais").permitAll()
                 .antMatchers(HttpMethod.OPTIONS).permitAll()
