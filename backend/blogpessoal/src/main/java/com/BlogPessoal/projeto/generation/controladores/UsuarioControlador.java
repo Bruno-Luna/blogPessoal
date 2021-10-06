@@ -24,7 +24,7 @@ public class UsuarioControlador {
 	@Autowired
 	private UsuarioServicos servicos;
 
-    @GetMapping("/todes")
+    @GetMapping("/todos")
     public ResponseEntity<List<Usuario>> pegarTodes() {
         List<Usuario> objetoLista = repositorio.findAll();
 

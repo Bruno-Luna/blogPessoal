@@ -19,7 +19,7 @@ public class PostagemControlador {
 	@Autowired
     private PostagemRepositorio repositorio;
 
-    @GetMapping("/todes")
+    @GetMapping("/todas")
     public ResponseEntity<List<Postagem>> pegarTodos(){
         List<Postagem> objetoLista = repositorio.findAll();
 
