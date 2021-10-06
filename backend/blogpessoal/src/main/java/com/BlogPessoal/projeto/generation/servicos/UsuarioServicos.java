@@ -47,7 +47,6 @@ public class UsuarioServicos {
      * @param usuarioParaAutenticar tipo UsuarioLoginDTO necessario email e senha,
      *                             para validar
      * @return UsuarioLoginDTO preechido com informações mais o token.
-     * @since 1.0
      * @author Bruno Luna
      */
 

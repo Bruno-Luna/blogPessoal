@@ -73,7 +73,7 @@ public class TemaControlador {
         return ResponseEntity.status(201).body(repositorio.save(temaParaAtualizar));
     }
 
-    @DeleteMapping("/deleter/{id_tema}")
+    @DeleteMapping("/deletar/{id_tema}")
     public void deletarTemaPorId(@PathVariable(value = "id_tema") Long idTema) {
         repositorio.deleteById(idTema);
     }
