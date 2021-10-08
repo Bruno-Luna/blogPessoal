@@ -70,8 +70,9 @@
                     <div class="card-body">
                         <h5 class="card-title m-0">{{item.titulo}}</h5>
                         <p class="card-text mt-3">{{item.descricao}}</p>
-                        <p class="card-text">
-                        </p>
+                       
+                        <a [routerLink]="['/post-edit', item.idPostagem]" routerLinkActive="router-link-active"  class="mr-3" href="" >Editar</a>
+                        <a [routerLink]="['/post-delete', item.idPostagem]" href="">Apagar</a>
                     </div>
                 </div>
             </div>
@@ -84,9 +85,6 @@
                         <h5 class="card-title m-0">{{item.titulo}}</h5>
                         <p class="card-text mt-3">{{item.descricao}}</p>
                         <p class="card-text"><small class="text-muted">por {{item.criador.nome}}</small></p>
-
-                        <a class="mr-3" href="" >Editar</a>
-                        <a  href="">Apagar</a>
                     </div>
                 </div>
             </div>
