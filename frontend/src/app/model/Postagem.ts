@@ -6,6 +6,6 @@ export class Postagem{
     public idPostagem: number
     public titulo: string
     public descricao: string
-    public usuario:User
-    public tema: Tema
+    public criador:User
+    public temaRelacionado: Tema
 }
