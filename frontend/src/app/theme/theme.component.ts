@@ -27,6 +27,7 @@ export class ThemeComponent implements OnInit {
     }
 
     this.buscarTodosTemas()
+    
   }
 
   buscarTodosTemas(){
