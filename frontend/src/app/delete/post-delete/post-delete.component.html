@@ -1,1 +1,30 @@
-<p>post-delete works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">Apagar postagem</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 card text-center">
+            <h4 class="text-center">Você tem certeza que deseja apagar a postagem abaixo?</h4>
+        </div>
+    </div>
+
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title m-0">{{postagem.titulo}}</h5>
+                    <p class="card-text mt-3">{{postagem.temaRelacionado.tema}}</p>
+                    <p class="card-text">{{postagem.descricao}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-md-12 d-flex justify-content-center">
+            <button  routerLink='/home'  class="btn mr-3" href="" >Não</button>
+            <button  class="btn" (click)='apagar()'  href="">Sim</button>
+        </div>
+    </div>
+</div>
