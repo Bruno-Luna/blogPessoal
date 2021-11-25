@@ -21,17 +21,17 @@ do front-end.
 
  
  
-<h3>Autor: </h3>
+<h4>Autor: </h4>
 <table>
   <tr>
 
-  <td align="center"><img style="border-radius: 50%; width: 200px;" 
+  <td align="center"><img style="border-radius: 50%; width: 120px;" 
   src="https://avatars.githubusercontent.com/u/80595156?v=4" 
   alt=""/><br /><sub><b>Bruno Luna 😁</b></sub></a><br />
   <a href="https://www.linkedin.com/in/bruno-luna-11590720a/" alt="Linkedin">
   <br>
-<img src="https://img.shields.io/badge/-Linkedin-1C1C1C?style=for-the-badge&logo=Linkedin&logoColor=00FFFF&link=https://www.linkedin.com/in/bruno-luna-11590720a/"  style= "width:100px;"/>
+<img src="https://img.shields.io/badge/-Linkedin-1C1C1C?style=for-the-badge&logo=Linkedin&logoColor=00FFFF&link=https://www.linkedin.com/in/bruno-luna-11590720a/"  style= "width:80px;"/>
   </a>
     </tr>
 </table>
- <h4>Este Blog foi desenvolvido com ❤️</h4> 
+ <h5>Blog desenvolvido com ❤️</h5> 
